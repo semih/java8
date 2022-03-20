@@ -1,23 +1,46 @@
-# Compiled class file
-*.class
+## Maven:
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+/.mvn/
+/mvnw
+/mvnw.bat
+mvnw.cmd
+/log/
+*.log*
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.versionsBackup
+pom.xml.bak
+dependency-reduced-pom.xml
+release.properties
+buildNumber.properties
+.mvn/timing.properties
 
-# Log file
-*.log
+**/target/
+/target/
+*/target/*
+.classpath
+.project
+.settings
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
+## Java
 .mtj.tmp/
-
-# Package Files #
+*.class
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+*.nar
 hs_err_pid*
+
+## IntelliJ
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+## MacOs
+**/.DS_Store
