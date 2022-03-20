@@ -1,6 +1,6 @@
 # Java 8 New Features
 
-##### Interface Default and Static Methods
+### Interface Default and Static Methods
 Before Java 8, interfaces could have only public abstract methods. 
 It was not possible to add new functionality to the existing interface without forcing all implementing classes to create an implementation of the new methods, 
 nor it was possible to create interface methods with an implementation.
@@ -11,7 +11,7 @@ despite being declared in an interface, have a defined behavior.
 - Static Method
 - Default Method
 
-##### Method References
+### Method References
 Method reference can be used as a shorter and more readable alternative for a lambda expression which only calls an existing method. 
 There are four variants of method references.
 
@@ -20,7 +20,7 @@ There are four variants of method references.
 - Reference to an Instance Method of an Object of a Particular Type
 - Reference to a Constructor
 
-##### Optional<T>
+### Optional<T>
 Before Java 8 developers had to carefully validate values they referred to, because of a possibility of throwing the NullPointerException (NPE). 
 All these checks demanded a pretty annoying and error-prone boilerplate code.
 
