@@ -1,4 +1,4 @@
-###### Java 8 New Features
+# Java 8 New Features
 
 **Interface Default and Static Methods**
 Before Java 8, interfaces could have only public abstract methods. 
